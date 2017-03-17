@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="26555" started-at="2017-03-17T14:50:17Z" finished-at="2017-03-17T14:50:44Z">
+    <groups>
+    </groups>
+    <test name="Check main page" duration-ms="26555" started-at="2017-03-17T14:50:17Z" finished-at="2017-03-17T14:50:44Z">
+      <class name="by.tut.jobsearch.JobSearchTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:by.tut.jobsearch.JobSearchTest@783e6358]" name="setUp" is-config="true" duration-ms="4743" started-at="2017-03-17T17:50:17Z" finished-at="2017-03-17T17:50:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://tut.by]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Специалист по тестированию ПО]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testTutBy()[pri:1, instance:by.tut.jobsearch.JobSearchTest@783e6358]" name="testTutBy" duration-ms="20200" started-at="2017-03-17T17:50:22Z" finished-at="2017-03-17T17:50:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTutBy -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:by.tut.jobsearch.JobSearchTest@783e6358]" name="tearDown" is-config="true" duration-ms="1522" started-at="2017-03-17T17:50:42Z" finished-at="2017-03-17T17:50:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- by.tut.jobsearch.JobSearchTest -->
+    </test> <!-- Check main page -->
+  </suite> <!-- Suite -->
+</testng-results>

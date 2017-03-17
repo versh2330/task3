@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" verbose="1" >
+
+    <parameter name="mainPageUrl" value="https://tut.by"/>
+    <parameter name="searchQuery" value="Специалист по тестированию ПО"/>
+
+    <test name = "Check main page">
+        <classes>
+                <class name="by.tut.jobsearch.JobSearchTest"/>
+        </classes>
+    </test>
+
+</suite>
